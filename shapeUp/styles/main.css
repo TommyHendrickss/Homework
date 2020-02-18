@@ -9,11 +9,17 @@
     margin-left: 20px;
     width: 60%;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid steelblue;
+    box-shadow: 5px 5px 10px 10px grey;
  }
 
 main {
     clear: both;
+}
+
+header{
+    background-image: linear-gradient(white, steelblue);
+    
 }
 
  header h2 {
@@ -27,6 +33,7 @@ main {
  header h3{
     font-size: 150%;
     margin: .5em 0;
+    padding: 0 1em;
  }
  
  header img{
@@ -36,26 +43,47 @@ main {
 
 section h2{
     margin: .5em;
+    padding: 0 1em;
+}
+
+section h3{
+    padding: 0 .5em;
 }
 
  h1{
      font-size: 175%;
+     padding: 0 1em;
  }
  
  p{
      margin: 1em 0;
+     padding: 0 1em;
  }
+
+blockquote{
+    padding: 0 2em;
+    font-style: italic;
+}
+
+aside h2{
+    padding: 0 1em;
+}
 
  aside ul{
      line-height: 25px;
-     margin-left: 25px;
+     margin-left: 3em;
+     padding: 0 1.5em;
  }
  
 footer{
+    margin-top: 10px;
+    background: steelblue;
+    color: white;
     font-size: 75%;
     text-align: center;
+    padding: 1.5em 0;
     font-variant: small-caps;
-    border: 1px solid 1px;
+    border: 1px solid black;
 }
 
  /*sudo links for section*/
