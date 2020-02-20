@@ -1,0 +1,35 @@
+html{
+    background-color: blue;
+}
+
+body{
+    width: 60%;
+    padding: 1em;
+    text-align: center;
+    margin: 10px auto;
+    background-color: white;
+    border:5px 5px black;
+}
+
+#pic1 {
+    width: 50%;
+    float: left;
+    padding: .5em;
+}
+
+#pic2{
+    width: 50%;
+    float: right;
+    padding: .5em;
+}
+
+#pic3 {
+    width: 50%;
+    float: left;
+    padding: .5em;
+}
+
+footer{
+    font-size: 75%;
+    text-align: center;
+}
